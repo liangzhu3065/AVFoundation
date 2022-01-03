@@ -1,0 +1,15 @@
+//
+//  AVFoundationPrefix.pch
+//  AVFoundation
+//
+//  Created by lzwang on 2021/12/31.
+//
+
+#ifndef AVFoundationPrefix_pch
+#define AVFoundationPrefix_pch
+
+#import "LZAVFoundationMacro.h"
+#import "Masonry.h"
+#import "YYModel.h"
+
+#endif /* AVFoundationPrefix_pch */
