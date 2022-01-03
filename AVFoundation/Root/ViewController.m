@@ -27,6 +27,8 @@
 
     [self.view addSubview:self.tableView];
     self.tableView.frame = CGRectMake(0, 64, kScreenWidth, kScreenHeight-64);
+    
+    //测试token
 }
 
 
