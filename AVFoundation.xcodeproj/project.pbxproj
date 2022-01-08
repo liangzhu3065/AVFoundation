@@ -18,6 +18,9 @@
 		8408E1BE277ED678002A1CBA /* LZRootCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E1BD277ED678002A1CBA /* LZRootCellModel.m */; };
 		8408E1C1277EE1AB002A1CBA /* RootCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 8408E1C0277EE1AB002A1CBA /* RootCell.json */; };
 		8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */; };
+		84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */; };
+		84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAF278580E7000D19C1 /* LZCameraView.m */; };
+		84B153912787023000A03D98 /* LZPhoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B153902787023000A03D98 /* LZPhoneManager.m */; };
 		FD47F77E9C5EA1D592DF3B54 /* Pods_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,12 @@
 		8408E1C0277EE1AB002A1CBA /* RootCell.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RootCell.json; sourceTree = "<group>"; };
 		8408E1C4277EFBAE002A1CBA /* LZCustomCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCustomCameraViewController.h; sourceTree = "<group>"; };
 		8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCustomCameraViewController.m; sourceTree = "<group>"; };
+		84112CAA278538D5000D19C1 /* LZVideoRecordingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZVideoRecordingViewController.h; sourceTree = "<group>"; };
+		84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZVideoRecordingViewController.m; sourceTree = "<group>"; };
+		84112CAE278580E7000D19C1 /* LZCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCameraView.h; sourceTree = "<group>"; };
+		84112CAF278580E7000D19C1 /* LZCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCameraView.m; sourceTree = "<group>"; };
+		84B1538F2787023000A03D98 /* LZPhoneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhoneManager.h; sourceTree = "<group>"; };
+		84B153902787023000A03D98 /* LZPhoneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhoneManager.m; sourceTree = "<group>"; };
 		A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +147,8 @@
 		8408E1BB277ECDE2002A1CBA /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				84B1538E2787020700A03D98 /* manager */,
+				84112CAD278580CF000D19C1 /* View */,
 				8408E1C3277EFB5C002A1CBA /* Controller */,
 			);
 			path = AVFoundation;
@@ -165,8 +176,28 @@
 			children = (
 				8408E1C4277EFBAE002A1CBA /* LZCustomCameraViewController.h */,
 				8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */,
+				84112CAA278538D5000D19C1 /* LZVideoRecordingViewController.h */,
+				84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		84112CAD278580CF000D19C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84112CAE278580E7000D19C1 /* LZCameraView.h */,
+				84112CAF278580E7000D19C1 /* LZCameraView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84B1538E2787020700A03D98 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				84B1538F2787023000A03D98 /* LZPhoneManager.h */,
+				84B153902787023000A03D98 /* LZPhoneManager.m */,
+			);
+			path = manager;
 			sourceTree = "<group>";
 		};
 		907B02D7667C3B8CF67906D2 /* Pods */ = {
@@ -292,8 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */,
+				84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */,
 				8408E1BA277EAF95002A1CBA /* LZBaseViewController.m in Sources */,
 				8408E1BE277ED678002A1CBA /* LZRootCellModel.m in Sources */,
+				84B153912787023000A03D98 /* LZPhoneManager.m in Sources */,
 				8408E1A2277D5AE7002A1CBA /* ViewController.m in Sources */,
 				8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */,
 				8408E19C277D5AE7002A1CBA /* AppDelegate.m in Sources */,
@@ -442,7 +476,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CLJ9U3K35F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AVFoundation/Supporting/AVFoundationPrefix.pch;
 				INFOPLIST_FILE = AVFoundation/Supporting/Info.plist;
@@ -451,8 +487,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.AVFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.ilightspeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ilightspeech-dev-20220107";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,7 +500,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CLJ9U3K35F;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AVFoundation/Supporting/AVFoundationPrefix.pch;
 				INFOPLIST_FILE = AVFoundation/Supporting/Info.plist;
@@ -472,8 +511,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.AVFoundation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.ilightspeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ilightspeech-dev-20220107";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

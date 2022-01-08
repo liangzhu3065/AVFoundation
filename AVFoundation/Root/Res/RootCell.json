@@ -1,4 +1,8 @@
 [
+    {
+      "title" : "自定义相机",
+      "className" : "LZCustomCameraViewController"
+    },
   {
     "title" : "音频的录制、播放",
     "className" : ""
