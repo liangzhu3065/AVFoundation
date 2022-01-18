@@ -21,6 +21,7 @@
 		84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */; };
 		84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAF278580E7000D19C1 /* LZCameraView.m */; };
 		84B153912787023000A03D98 /* LZPhoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B153902787023000A03D98 /* LZPhoneManager.m */; };
+		84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */; };
 		FD47F77E9C5EA1D592DF3B54 /* Pods_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		84112CAF278580E7000D19C1 /* LZCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCameraView.m; sourceTree = "<group>"; };
 		84B1538F2787023000A03D98 /* LZPhoneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhoneManager.h; sourceTree = "<group>"; };
 		84B153902787023000A03D98 /* LZPhoneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhoneManager.m; sourceTree = "<group>"; };
+		84DE29EA2791825600B5A839 /* LZPhotoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotoPreviewViewController.h; sourceTree = "<group>"; };
+		84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhotoPreviewViewController.m; sourceTree = "<group>"; };
 		A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -178,6 +181,8 @@
 				8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */,
 				84112CAA278538D5000D19C1 /* LZVideoRecordingViewController.h */,
 				84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */,
+				84DE29EA2791825600B5A839 /* LZPhotoPreviewViewController.h */,
+				84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */,
+				84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */,
 				84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */,
 				8408E1BA277EAF95002A1CBA /* LZBaseViewController.m in Sources */,
 				8408E1BE277ED678002A1CBA /* LZRootCellModel.m in Sources */,
@@ -487,9 +493,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.ilightspeech;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.auto.speechassistantsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "ilightspeech-dev-20220107";
+				PROVISIONING_PROFILE_SPECIFIER = assistantsdk_demo_dev_20210107;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -511,9 +517,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.ilightspeech;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iflytek.auto.speechassistantsdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "ilightspeech-dev-20220107";
+				PROVISIONING_PROFILE_SPECIFIER = assistantsdk_demo_dev_20210107;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

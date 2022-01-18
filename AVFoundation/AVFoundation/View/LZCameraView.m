@@ -54,6 +54,15 @@
     self.videoPreviewLayer.session = captureSession;
 }
 
+#pragma mark Private
+- (void)startVideoRecordAnimation {
+    
+}
+
+- (void)stopVideoRecordAnimation {
+    
+}
+
 #pragma mark action
 - (void)btnClick:(UIButton *)sender {
     if (sender == self.cancelBtn) {
@@ -68,18 +77,67 @@
         }
     }
 }
+
+- (void)didLongPress:(UILongPressGestureRecognizer *)gesture {
+    switch (gesture.state) {
+        case UIGestureRecognizerStateBegan:
+        {
+            NSLog(@"UIGestureRecognizerStateBegan");
+            if(self.delegate && [self.delegate respondsToSelector:@selector(cameraViewWillVideoRecording:)]) {
+                [self.delegate cameraViewWillVideoRecording:self];
+            }
+        }
+            break;
+        case UIGestureRecognizerStateChanged:
+        {
+            
+        }
+            break;
+        case UIGestureRecognizerStateEnded:
+        case UIGestureRecognizerStateCancelled:
+        {
+            NSLog(@"UIGestureRecognizerStateEnded");
+            if(self.delegate && [self.delegate respondsToSelector:@selector(cameraViewDidFinishedVideoRecored:)]) {
+                [self.delegate cameraViewDidFinishedVideoRecored:self];
+            }
+        }
+            break;
+        default:
+            break;
+    }
+}
+
 #pragma mark UI
 - (void)setUpSubviews {
-    [self addSubview:self.cancelBtn];
-    [self.cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(16);
-        make.bottom.mas_equalTo(-26);
-    }];
     
     [self addSubview:self.takeBtn];
+    self.takeBtn.backgroundColor = [UIColor whiteColor];
+    self.takeBtn.layer.cornerRadius = 26;
+    self.takeBtn.layer.masksToBounds = YES;
     [self.takeBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.bottom.mas_equalTo(-26);
         make.centerX.mas_equalTo(self);
+        make.width.height.mas_equalTo(52);
+    }];
+    
+    UILongPressGestureRecognizer *pressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(didLongPress:)];
+    [self.takeBtn addGestureRecognizer:pressGesture];
+    
+    UILabel *takeLabel = [[UILabel alloc] init];
+    takeLabel.text = @"点击拍照 长按录像";
+    takeLabel.textAlignment = NSTextAlignmentCenter;
+    takeLabel.textColor = [UIColor whiteColor];
+    takeLabel.font = [UIFont systemFontOfSize:14];
+    [self addSubview:takeLabel];
+    [takeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self);
+        make.bottom.mas_equalTo(self.takeBtn.mas_top).offset(-15);
+    }];
+    
+    [self addSubview:self.cancelBtn];
+    [self.cancelBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(16);
+        make.centerY.mas_equalTo(self.takeBtn);
     }];
 }
 
@@ -96,8 +154,8 @@
 - (UIButton *)takeBtn {
     if (!_takeBtn) {
         _takeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [_takeBtn setTitle:@"拍照" forState:UIControlStateNormal];
-        [_takeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//        [_takeBtn setTitle:@"拍照" forState:UIControlStateNormal];
+//        [_takeBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_takeBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _takeBtn;

@@ -21,6 +21,12 @@ NS_ASSUME_NONNULL_BEGIN
 //拍照
 - (void)cameraViewDidTakeStillPhoto:(LZCameraView *)cameraView;
 
+//即将录制视频
+- (void)cameraViewWillVideoRecording:(LZCameraView *)cameraView;
+
+//视频录制结束
+- (void)cameraViewDidFinishedVideoRecored:(LZCameraView *)cameraView;
+
 @end
 
 @interface LZCameraView : UIView
@@ -31,6 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<LZCameraViewDelegate> delegate;
 
+- (void)startVideoRecordAnimation;
+
+- (void)stopVideoRecordAnimation;
 
 @end
 
