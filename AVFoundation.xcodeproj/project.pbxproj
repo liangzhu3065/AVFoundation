@@ -20,6 +20,10 @@
 		8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */; };
 		84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */; };
 		84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAF278580E7000D19C1 /* LZCameraView.m */; };
+		843E3D412796DF5600F0A8E1 /* LZTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D402796DF5600F0A8E1 /* LZTransitionViewController.m */; };
+		843E3D442796DF6F00F0A8E1 /* LZTransitionChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D432796DF6F00F0A8E1 /* LZTransitionChildViewController.m */; };
+		843E3D472796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D462796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m */; };
+		843E3D4E2797E13E00F0A8E1 /* LZTransitionModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D4D2797E13D00F0A8E1 /* LZTransitionModalViewController.m */; };
 		84B153912787023000A03D98 /* LZPhoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B153902787023000A03D98 /* LZPhoneManager.m */; };
 		84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */; };
 		FD47F77E9C5EA1D592DF3B54 /* Pods_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */; };
@@ -53,6 +57,14 @@
 		84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZVideoRecordingViewController.m; sourceTree = "<group>"; };
 		84112CAE278580E7000D19C1 /* LZCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCameraView.h; sourceTree = "<group>"; };
 		84112CAF278580E7000D19C1 /* LZCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCameraView.m; sourceTree = "<group>"; };
+		843E3D3F2796DF5600F0A8E1 /* LZTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionViewController.h; sourceTree = "<group>"; };
+		843E3D402796DF5600F0A8E1 /* LZTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTransitionViewController.m; sourceTree = "<group>"; };
+		843E3D422796DF6F00F0A8E1 /* LZTransitionChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionChildViewController.h; sourceTree = "<group>"; };
+		843E3D432796DF6F00F0A8E1 /* LZTransitionChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTransitionChildViewController.m; sourceTree = "<group>"; };
+		843E3D452796E83A00F0A8E1 /* LZAnimatedTransitioningObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAnimatedTransitioningObject.h; sourceTree = "<group>"; };
+		843E3D462796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAnimatedTransitioningObject.m; sourceTree = "<group>"; };
+		843E3D4C2797E13D00F0A8E1 /* LZTransitionModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionModalViewController.h; sourceTree = "<group>"; };
+		843E3D4D2797E13D00F0A8E1 /* LZTransitionModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTransitionModalViewController.m; sourceTree = "<group>"; };
 		84B1538F2787023000A03D98 /* LZPhoneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhoneManager.h; sourceTree = "<group>"; };
 		84B153902787023000A03D98 /* LZPhoneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhoneManager.m; sourceTree = "<group>"; };
 		84DE29EA2791825600B5A839 /* LZPhotoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotoPreviewViewController.h; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8408E1B5277EAE0C002A1CBA /* Common */,
+				843E3D3E2796DEEC00F0A8E1 /* Transition */,
 				8408E1BB277ECDE2002A1CBA /* AVFoundation */,
 				8408E1B7277EAEA7002A1CBA /* Root */,
 				8408E1B3277EAAFF002A1CBA /* Supporting */,
@@ -194,6 +207,21 @@
 				84112CAF278580E7000D19C1 /* LZCameraView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		843E3D3E2796DEEC00F0A8E1 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				843E3D3F2796DF5600F0A8E1 /* LZTransitionViewController.h */,
+				843E3D402796DF5600F0A8E1 /* LZTransitionViewController.m */,
+				843E3D422796DF6F00F0A8E1 /* LZTransitionChildViewController.h */,
+				843E3D432796DF6F00F0A8E1 /* LZTransitionChildViewController.m */,
+				843E3D4C2797E13D00F0A8E1 /* LZTransitionModalViewController.h */,
+				843E3D4D2797E13D00F0A8E1 /* LZTransitionModalViewController.m */,
+				843E3D452796E83A00F0A8E1 /* LZAnimatedTransitioningObject.h */,
+				843E3D462796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 		84B1538E2787020700A03D98 /* manager */ = {
@@ -331,14 +359,18 @@
 				84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */,
 				84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */,
 				84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */,
+				843E3D412796DF5600F0A8E1 /* LZTransitionViewController.m in Sources */,
 				8408E1BA277EAF95002A1CBA /* LZBaseViewController.m in Sources */,
 				8408E1BE277ED678002A1CBA /* LZRootCellModel.m in Sources */,
+				843E3D442796DF6F00F0A8E1 /* LZTransitionChildViewController.m in Sources */,
 				84B153912787023000A03D98 /* LZPhoneManager.m in Sources */,
 				8408E1A2277D5AE7002A1CBA /* ViewController.m in Sources */,
 				8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */,
 				8408E19C277D5AE7002A1CBA /* AppDelegate.m in Sources */,
 				8408E1AD277D5AF7002A1CBA /* main.m in Sources */,
+				843E3D4E2797E13E00F0A8E1 /* LZTransitionModalViewController.m in Sources */,
 				8408E19F277D5AE7002A1CBA /* SceneDelegate.m in Sources */,
+				843E3D472796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

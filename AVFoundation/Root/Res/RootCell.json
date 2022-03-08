@@ -20,6 +20,10 @@
     "className" : ""
   },
   {
+    "title" : "自定义Transition动画",
+    "className" : "LZTransitionViewController"
+  },
+  {
     "title" : "媒体编辑",
     "className" : ""
   },
