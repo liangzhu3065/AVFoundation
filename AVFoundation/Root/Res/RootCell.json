@@ -4,8 +4,8 @@
       "className" : "LZCustomCameraViewController"
     },
   {
-    "title" : "音频的录制、播放",
-    "className" : ""
+    "title" : "PhotoKits",
+    "className" : "LZPhotoKitViewController"
   },
   {
     "title" : "视频的播放",

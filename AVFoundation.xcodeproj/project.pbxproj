@@ -20,12 +20,25 @@
 		8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408E1C5277EFBAE002A1CBA /* LZCustomCameraViewController.m */; };
 		84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */; };
 		84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112CAF278580E7000D19C1 /* LZCameraView.m */; };
+		843B4FA827DC687D0031292C /* LZPhotosService.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B4FA727DC687D0031292C /* LZPhotosService.m */; };
 		843E3D412796DF5600F0A8E1 /* LZTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D402796DF5600F0A8E1 /* LZTransitionViewController.m */; };
 		843E3D442796DF6F00F0A8E1 /* LZTransitionChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D432796DF6F00F0A8E1 /* LZTransitionChildViewController.m */; };
 		843E3D472796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D462796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m */; };
 		843E3D4E2797E13E00F0A8E1 /* LZTransitionModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843E3D4D2797E13D00F0A8E1 /* LZTransitionModalViewController.m */; };
+		848D9DDD27DC476200281BEE /* LZAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D9DDC27DC476200281BEE /* LZAlbumListViewController.m */; };
 		84B153912787023000A03D98 /* LZPhoneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B153902787023000A03D98 /* LZPhoneManager.m */; };
+		84C3E1DE27DD8AAB006312B2 /* LZAlbumBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3E1DD27DD8AAB006312B2 /* LZAlbumBrowserViewController.m */; };
+		84C3E1E127DD8BE7006312B2 /* LZImageBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3E1E027DD8BE7006312B2 /* LZImageBrowserCell.m */; };
+		84C3E1E427DD8EAE006312B2 /* LZAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3E1E327DD8EAE006312B2 /* LZAsset.m */; };
 		84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */; };
+		84F52B8327D8D23500AC4F45 /* LZAssetLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B8227D8D23500AC4F45 /* LZAssetLibraryViewController.m */; };
+		84F52B8627D8D8C600AC4F45 /* LZPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B8527D8D8C600AC4F45 /* LZPhotosViewController.m */; };
+		84F52B8927D9A6FD00AC4F45 /* LZTabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B8827D9A6FD00AC4F45 /* LZTabelViewController.m */; };
+		84F52B8C27D9C4ED00AC4F45 /* LZPhotoKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B8B27D9C4ED00AC4F45 /* LZPhotoKitViewController.m */; };
+		84F52B8F27D9C72000AC4F45 /* PhotosKitCell.json in Resources */ = {isa = PBXBuildFile; fileRef = 84F52B8E27D9C72000AC4F45 /* PhotosKitCell.json */; };
+		84F52B9227DA259B00AC4F45 /* LZPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B9127DA259B00AC4F45 /* LZPickerViewController.m */; };
+		84F52B9627DA267B00AC4F45 /* LZPickerCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B9527DA267B00AC4F45 /* LZPickerCollectionCell.m */; };
+		84F52B9A27DA275600AC4F45 /* LZPickerAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F52B9927DA275600AC4F45 /* LZPickerAlbumModel.m */; };
 		FD47F77E9C5EA1D592DF3B54 /* Pods_AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +70,8 @@
 		84112CAB278538D5000D19C1 /* LZVideoRecordingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZVideoRecordingViewController.m; sourceTree = "<group>"; };
 		84112CAE278580E7000D19C1 /* LZCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZCameraView.h; sourceTree = "<group>"; };
 		84112CAF278580E7000D19C1 /* LZCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZCameraView.m; sourceTree = "<group>"; };
+		843B4FA627DC687D0031292C /* LZPhotosService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotosService.h; sourceTree = "<group>"; };
+		843B4FA727DC687D0031292C /* LZPhotosService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhotosService.m; sourceTree = "<group>"; };
 		843E3D3F2796DF5600F0A8E1 /* LZTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionViewController.h; sourceTree = "<group>"; };
 		843E3D402796DF5600F0A8E1 /* LZTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTransitionViewController.m; sourceTree = "<group>"; };
 		843E3D422796DF6F00F0A8E1 /* LZTransitionChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionChildViewController.h; sourceTree = "<group>"; };
@@ -65,10 +80,33 @@
 		843E3D462796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAnimatedTransitioningObject.m; sourceTree = "<group>"; };
 		843E3D4C2797E13D00F0A8E1 /* LZTransitionModalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTransitionModalViewController.h; sourceTree = "<group>"; };
 		843E3D4D2797E13D00F0A8E1 /* LZTransitionModalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTransitionModalViewController.m; sourceTree = "<group>"; };
+		848D9DDB27DC476200281BEE /* LZAlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAlbumListViewController.h; sourceTree = "<group>"; };
+		848D9DDC27DC476200281BEE /* LZAlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlbumListViewController.m; sourceTree = "<group>"; };
 		84B1538F2787023000A03D98 /* LZPhoneManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhoneManager.h; sourceTree = "<group>"; };
 		84B153902787023000A03D98 /* LZPhoneManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhoneManager.m; sourceTree = "<group>"; };
+		84C3E1DC27DD8AAB006312B2 /* LZAlbumBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAlbumBrowserViewController.h; sourceTree = "<group>"; };
+		84C3E1DD27DD8AAB006312B2 /* LZAlbumBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAlbumBrowserViewController.m; sourceTree = "<group>"; };
+		84C3E1DF27DD8BE7006312B2 /* LZImageBrowserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZImageBrowserCell.h; sourceTree = "<group>"; };
+		84C3E1E027DD8BE7006312B2 /* LZImageBrowserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZImageBrowserCell.m; sourceTree = "<group>"; };
+		84C3E1E227DD8EAE006312B2 /* LZAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAsset.h; sourceTree = "<group>"; };
+		84C3E1E327DD8EAE006312B2 /* LZAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAsset.m; sourceTree = "<group>"; };
 		84DE29EA2791825600B5A839 /* LZPhotoPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotoPreviewViewController.h; sourceTree = "<group>"; };
 		84DE29EB2791825600B5A839 /* LZPhotoPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhotoPreviewViewController.m; sourceTree = "<group>"; };
+		84F52B8127D8D23500AC4F45 /* LZAssetLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZAssetLibraryViewController.h; sourceTree = "<group>"; };
+		84F52B8227D8D23500AC4F45 /* LZAssetLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZAssetLibraryViewController.m; sourceTree = "<group>"; };
+		84F52B8427D8D8C600AC4F45 /* LZPhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotosViewController.h; sourceTree = "<group>"; };
+		84F52B8527D8D8C600AC4F45 /* LZPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhotosViewController.m; sourceTree = "<group>"; };
+		84F52B8727D9A6FD00AC4F45 /* LZTabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZTabelViewController.h; sourceTree = "<group>"; };
+		84F52B8827D9A6FD00AC4F45 /* LZTabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZTabelViewController.m; sourceTree = "<group>"; };
+		84F52B8A27D9C4ED00AC4F45 /* LZPhotoKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPhotoKitViewController.h; sourceTree = "<group>"; };
+		84F52B8B27D9C4ED00AC4F45 /* LZPhotoKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPhotoKitViewController.m; sourceTree = "<group>"; };
+		84F52B8E27D9C72000AC4F45 /* PhotosKitCell.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PhotosKitCell.json; sourceTree = "<group>"; };
+		84F52B9027DA259B00AC4F45 /* LZPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPickerViewController.h; sourceTree = "<group>"; };
+		84F52B9127DA259B00AC4F45 /* LZPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPickerViewController.m; sourceTree = "<group>"; };
+		84F52B9427DA267B00AC4F45 /* LZPickerCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPickerCollectionCell.h; sourceTree = "<group>"; };
+		84F52B9527DA267B00AC4F45 /* LZPickerCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPickerCollectionCell.m; sourceTree = "<group>"; };
+		84F52B9827DA275600AC4F45 /* LZPickerAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LZPickerAlbumModel.h; sourceTree = "<group>"; };
+		84F52B9927DA275600AC4F45 /* LZPickerAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LZPickerAlbumModel.m; sourceTree = "<group>"; };
 		A1E278DA8B9256B40D6B6B69 /* Pods_AVFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +151,7 @@
 		8408E199277D5AE7002A1CBA /* AVFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				84F52B8027D8D21000AC4F45 /* AssetLibrary */,
 				8408E1B5277EAE0C002A1CBA /* Common */,
 				843E3D3E2796DEEC00F0A8E1 /* Transition */,
 				8408E1BB277ECDE2002A1CBA /* AVFoundation */,
@@ -145,6 +184,8 @@
 				8408E1B6277EAE90002A1CBA /* LZAVFoundationMacro.h */,
 				8408E1B8277EAF95002A1CBA /* LZBaseViewController.h */,
 				8408E1B9277EAF95002A1CBA /* LZBaseViewController.m */,
+				84F52B8727D9A6FD00AC4F45 /* LZTabelViewController.h */,
+				84F52B8827D9A6FD00AC4F45 /* LZTabelViewController.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -209,6 +250,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		843B4FA527DC68350031292C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				843B4FA627DC687D0031292C /* LZPhotosService.h */,
+				843B4FA727DC687D0031292C /* LZPhotosService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		843B4FA927DC76460031292C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84F52B8127D8D23500AC4F45 /* LZAssetLibraryViewController.h */,
+				84F52B8227D8D23500AC4F45 /* LZAssetLibraryViewController.m */,
+				84F52B8A27D9C4ED00AC4F45 /* LZPhotoKitViewController.h */,
+				84F52B8B27D9C4ED00AC4F45 /* LZPhotoKitViewController.m */,
+				84F52B8427D8D8C600AC4F45 /* LZPhotosViewController.h */,
+				84F52B8527D8D8C600AC4F45 /* LZPhotosViewController.m */,
+				84F52B9027DA259B00AC4F45 /* LZPickerViewController.h */,
+				84F52B9127DA259B00AC4F45 /* LZPickerViewController.m */,
+				848D9DDB27DC476200281BEE /* LZAlbumListViewController.h */,
+				848D9DDC27DC476200281BEE /* LZAlbumListViewController.m */,
+				84C3E1DC27DD8AAB006312B2 /* LZAlbumBrowserViewController.h */,
+				84C3E1DD27DD8AAB006312B2 /* LZAlbumBrowserViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		843E3D3E2796DEEC00F0A8E1 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +300,48 @@
 				84B153902787023000A03D98 /* LZPhoneManager.m */,
 			);
 			path = manager;
+			sourceTree = "<group>";
+		};
+		84F52B8027D8D21000AC4F45 /* AssetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				843B4FA927DC76460031292C /* Controllers */,
+				843B4FA527DC68350031292C /* Service */,
+				84F52B9727DA274000AC4F45 /* Model */,
+				84F52B9327DA263B00AC4F45 /* CollectionCell */,
+				84F52B8D27D9C6E500AC4F45 /* Res */,
+			);
+			path = AssetLibrary;
+			sourceTree = "<group>";
+		};
+		84F52B8D27D9C6E500AC4F45 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				84F52B8E27D9C72000AC4F45 /* PhotosKitCell.json */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		84F52B9327DA263B00AC4F45 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				84F52B9427DA267B00AC4F45 /* LZPickerCollectionCell.h */,
+				84F52B9527DA267B00AC4F45 /* LZPickerCollectionCell.m */,
+				84C3E1DF27DD8BE7006312B2 /* LZImageBrowserCell.h */,
+				84C3E1E027DD8BE7006312B2 /* LZImageBrowserCell.m */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		84F52B9727DA274000AC4F45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84F52B9827DA275600AC4F45 /* LZPickerAlbumModel.h */,
+				84F52B9927DA275600AC4F45 /* LZPickerAlbumModel.m */,
+				84C3E1E227DD8EAE006312B2 /* LZAsset.h */,
+				84C3E1E327DD8EAE006312B2 /* LZAsset.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		907B02D7667C3B8CF67906D2 /* Pods */ = {
@@ -301,6 +412,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8408E1AA277D5AF7002A1CBA /* LaunchScreen.storyboard in Resources */,
+				84F52B8F27D9C72000AC4F45 /* PhotosKitCell.json in Resources */,
 				8408E1C1277EE1AB002A1CBA /* RootCell.json in Resources */,
 				8408E1A7277D5AF7002A1CBA /* Assets.xcassets in Resources */,
 				8408E1A5277D5AE7002A1CBA /* Main.storyboard in Resources */,
@@ -356,19 +468,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C3E1E427DD8EAE006312B2 /* LZAsset.m in Sources */,
+				84F52B8C27D9C4ED00AC4F45 /* LZPhotoKitViewController.m in Sources */,
 				84112CB0278580E7000D19C1 /* LZCameraView.m in Sources */,
+				84C3E1E127DD8BE7006312B2 /* LZImageBrowserCell.m in Sources */,
 				84DE29EC2791825600B5A839 /* LZPhotoPreviewViewController.m in Sources */,
+				84F52B9A27DA275600AC4F45 /* LZPickerAlbumModel.m in Sources */,
 				84112CAC278538D5000D19C1 /* LZVideoRecordingViewController.m in Sources */,
+				84F52B8327D8D23500AC4F45 /* LZAssetLibraryViewController.m in Sources */,
+				84F52B8627D8D8C600AC4F45 /* LZPhotosViewController.m in Sources */,
+				84F52B9227DA259B00AC4F45 /* LZPickerViewController.m in Sources */,
+				843B4FA827DC687D0031292C /* LZPhotosService.m in Sources */,
 				843E3D412796DF5600F0A8E1 /* LZTransitionViewController.m in Sources */,
 				8408E1BA277EAF95002A1CBA /* LZBaseViewController.m in Sources */,
 				8408E1BE277ED678002A1CBA /* LZRootCellModel.m in Sources */,
 				843E3D442796DF6F00F0A8E1 /* LZTransitionChildViewController.m in Sources */,
 				84B153912787023000A03D98 /* LZPhoneManager.m in Sources */,
 				8408E1A2277D5AE7002A1CBA /* ViewController.m in Sources */,
+				84F52B8927D9A6FD00AC4F45 /* LZTabelViewController.m in Sources */,
 				8408E1C6277EFBAE002A1CBA /* LZCustomCameraViewController.m in Sources */,
+				84C3E1DE27DD8AAB006312B2 /* LZAlbumBrowserViewController.m in Sources */,
 				8408E19C277D5AE7002A1CBA /* AppDelegate.m in Sources */,
 				8408E1AD277D5AF7002A1CBA /* main.m in Sources */,
 				843E3D4E2797E13E00F0A8E1 /* LZTransitionModalViewController.m in Sources */,
+				848D9DDD27DC476200281BEE /* LZAlbumListViewController.m in Sources */,
+				84F52B9627DA267B00AC4F45 /* LZPickerCollectionCell.m in Sources */,
 				8408E19F277D5AE7002A1CBA /* SceneDelegate.m in Sources */,
 				843E3D472796E83A00F0A8E1 /* LZAnimatedTransitioningObject.m in Sources */,
 			);

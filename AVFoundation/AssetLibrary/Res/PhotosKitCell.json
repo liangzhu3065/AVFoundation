@@ -1,0 +1,19 @@
+
+[
+    {
+      "title" : "选择相册-UIImagePicker",
+      "className" : "LZPhotosViewController"
+    },
+  {
+    "title" : "所有相册",
+    "className" : "LZAlbumListViewController"
+  },
+  {
+    "title" : "所有照片",
+    "className" : "LZPickerViewController"
+  },
+  {
+    "title" : "所有视频",
+    "className" : "LZPickerViewController"
+  }
+]

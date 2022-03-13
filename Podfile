@@ -9,4 +9,5 @@ target 'AVFoundation' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'YYModel'
+  pod 'SDWebImage', '~> 5.0'
 end
