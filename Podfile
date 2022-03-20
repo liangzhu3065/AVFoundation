@@ -10,4 +10,5 @@ target 'AVFoundation' do
   pod 'MJRefresh'
   pod 'YYModel'
   pod 'SDWebImage', '~> 5.0'
+  pod 'HXPhotoPicker/SDWebImage', '~> 3.3.1'
 end

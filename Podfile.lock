@@ -1,4 +1,6 @@
 PODS:
+  - HXPhotoPicker/SDWebImage (3.3.1):
+    - SDWebImage (~> 5.0)
   - Masonry (1.1.0)
   - MJRefresh (3.6.1)
   - SDWebImage (5.12.3):
@@ -7,6 +9,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - HXPhotoPicker/SDWebImage (~> 3.3.1)
   - Masonry
   - MJRefresh
   - SDWebImage (~> 5.0)
@@ -14,17 +17,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - HXPhotoPicker
     - Masonry
     - MJRefresh
     - SDWebImage
     - YYModel
 
 SPEC CHECKSUMS:
+  HXPhotoPicker: f1274d0c931ad8564e0f23f33fe8b6110b639bd7
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: d2c1970d1cf6e77fcfcdfe76c943dfab8dbfa5c1
   SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 3cbe7d82497eb7ab8bd7a11a31a2ac2cc0cab98b
+PODFILE CHECKSUM: d3de2534ee77cc9856e779c03076edeefc6f7a19
 
 COCOAPODS: 1.10.1
